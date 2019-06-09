@@ -1,0 +1,24 @@
+<ion-header>
+	<ion-navbar color="primary">
+		<ion-title>About Pizzicatune</ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content padding>
+	<div>
+		<img width="200" height="200" src="assets/imgs/logo.svg">
+
+		<p>Developed by</p>
+		<h1>Kenny Almendral</h1>
+
+		<ul>
+			<li><a href="#">Rate app</a></li>
+			<li><a href="mailto:kennyalmendral@gmail.com">Send feedback</a></li>
+			<li><a href="javascript:;" (click)="share()">Share</a></li>
+		</ul>
+	</div>
+</ion-content>
+
+<ion-footer>
+	<p>&copy; <span>{{ year }}</span> Pizzicatune</p>
+</ion-footer>
