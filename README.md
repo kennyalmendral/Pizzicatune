@@ -40,5 +40,5 @@ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore Pizzicatune.key
 ## Optimize the Binary for Release
 
 ```
-zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk Pizzicatune0.0.1.apk
+zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk Pizzicatune0.0.2.apk
 ```

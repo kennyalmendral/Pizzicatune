@@ -18,7 +18,7 @@ export class AboutPage {
 	}
 
 	share() {
-		this.socialSharing.share('Check this awesome violin tuner app! It outputs real plucked (pizzicato) string sound.', 'Awesome Violin Tuner App', null, 'https://google.com').then((response) => {
+		this.socialSharing.share('Check out this simple violin tuner app! It outputs real plucked (pizzicato) string sound.', 'Awesome Violin Tuner App', null, 'https://play.google.com/store/apps/details?id=io.github.kennyalmendral.pizzicatune').then((response) => {
 		}).catch((error) => {
 			console.log(error);
 		});
