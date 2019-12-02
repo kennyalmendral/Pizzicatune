@@ -1,5 +1,4 @@
 # Pizzicatune
----
 
 A simple violin tuner app that outputs real plucked (pizzicato) string sound.
 
